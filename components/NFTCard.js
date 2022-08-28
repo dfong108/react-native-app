@@ -7,6 +7,7 @@ import { SubInfo, EthPrice, NFTTitle } from "./SubInfo";
 
 const NFTCard = ({ data }) => {
   const navigation = useNavigation();
+  console.log(navigation)
 
   return (
     <View

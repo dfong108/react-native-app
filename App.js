@@ -1,4 +1,4 @@
-import { createStackNavigator } from "@react-navigation/stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import {
   NavigationAction,
   DefaultTheme,
@@ -10,7 +10,7 @@ import Home from "./screens/Home";
 import Details from "./screens/Details";
 
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 const theme = {
   ...DefaultTheme,
